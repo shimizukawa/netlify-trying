@@ -34,9 +34,9 @@ pygments_style = 'sphinx'
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = 'alabaster'
-#html_logo = 'sphinx-logo.png'
+html_logo = 'sphinx-logo.png'
 html_theme_options = {
-    'logo': 'sphinx-logo.png',
+    #'logo': 'sphinx-logo.png',
     'github_user': 'shimizukawa',
     'github_repo': 'netlify-trying',
 }
