@@ -16,7 +16,7 @@ version = release = '1.0'
 # -- General configuration ---------------------------------------------------
 
 extensions = ['sphinx.ext.autodoc', 'sphinx.ext.todo', 'sphinx.ext.coverage']
-extensions.append('sphinx.ext.imgmath')
+extensions.append('sphinx.ext.mathjax')
 todo_include_todos = True
 
 rst_prolog = """
