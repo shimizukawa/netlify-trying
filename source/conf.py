@@ -34,7 +34,7 @@ pygments_style = 'sphinx'
 # -- Options for HTML output -------------------------------------------------
 
 html_theme = 'alabaster'
-html_logo = 'sphinx-logo.png'
+#html_logo = 'sphinx-logo.png'
 html_theme_options = {
     'logo': 'sphinx-logo.png',
     'github_user': 'shimizukawa',
@@ -42,7 +42,7 @@ html_theme_options = {
 }
 html_sidebars = {
     '**': [
-        #'about.html',
+        'about.html',
         'navigation.html',
         'relations.html',
         'searchbox.html',
